@@ -6,13 +6,59 @@
 		"name": "计算机基础",
 		"children": [
 		{
-			"name": "操作系统基础"
+			"name": "操作系统基础",
+			"children":[
+				{
+					"name":"进程"
+				},
+				{
+					"name":"线程"
+				},
+				{
+					"name":"锁和同步",
+					"children":[
+						{
+							"name":"生产者消费者模型"
+						},
+						{
+							"name":"哲学家进餐问题"
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "计算机组成原理"
 		},
 		{
-			"name": "计算机网络"
+			"name": "计算机网络",
+			"children":[
+				{
+					"name":"TCP/IP/UDP",
+					"children":[
+						{
+							"name":"三次握手/四次握手"
+						},
+						{
+							"name":"TCP/UDP区别"
+						}
+					]
+				},
+				{
+					"name":"HTTP",
+					"children":[
+						{
+							"name":"Header"
+						},
+						{
+							"name":"OAuth"
+						},
+						{
+							"name":"keep-alive"
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "数据结构与算法基础",
@@ -35,14 +81,62 @@
 					]
 				},
 				{
-					"name":"算法"
+					"name":"算法",
+					"children":[
+						{
+							"name":"排序"
+						},
+						{
+							"name":"位运算"
+						},
+						{
+							"name":"数组操作"
+						},
+						{
+							"name":"字符串匹配"
+						},
+						{
+							"name":"算法基本思想",
+							"children":[
+								{
+									"name":"分治"
+								},
+								{
+									"name":"递归"
+								},
+								{
+									"name":"回溯"
+								},
+								{
+									"name":"动态规划"
+								},
+								{
+									"name":"贪婪"
+								}
+							]
+						}
+					]
 				}
 			]
 		}
 		]
 	},
 	{
-		"name": "语言基础"
+		"name": "语言基础",
+		"children":[
+			{
+				"name":"基础语法"
+			},
+			{
+				"name":"面向对象"
+			},
+			{
+				"name":"Java内存模型"
+			},
+			{
+				"name":"JVM"
+			}
+		]
 	},
 	{
 		"name": "I/O包括网络I/O"
@@ -66,6 +160,14 @@
 				"name": "Orm框架的使用"
 			}
 			]
+		},
+		{
+			"name":"K-V存储",
+			"children":[
+				{
+					"name":"SharedPreference"
+				}
+			]
 		}
 		]
 	},
@@ -73,7 +175,21 @@
 		"name": "并发与并行及其调优"
 	},
 	{
-		"name": "IDE"
+		"name": "基础技能",
+		"children":[
+			{
+				"name":"IDE"
+			},
+			{
+				"name":"Git"
+			},
+			{
+				"name":"信息获取和筛选"
+			},
+			{
+				"name":"Linux"
+			}
+		]
 	},
 	{
 		"name": "软件测试"
