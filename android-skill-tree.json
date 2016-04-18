@@ -1,198 +1,268 @@
 {
-	"name": "Android",
-	"size": 1000,
-	"children": [
-	{
-		"name": "计算机基础",
-		"children": [
-		{
-			"name": "操作系统基础",
-			"children":[
-				{
-					"name":"进程"
-				},
-				{
-					"name":"线程"
-				},
-				{
-					"name":"锁和同步",
-					"children":[
-						{
-							"name":"生产者消费者模型"
-						},
-						{
-							"name":"哲学家进餐问题"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "计算机组成原理"
-		},
-		{
-			"name": "计算机网络",
-			"children":[
-				{
-					"name":"TCP/IP/UDP",
-					"children":[
-						{
-							"name":"三次握手/四次握手"
-						},
-						{
-							"name":"TCP/UDP区别"
-						}
-					]
-				},
-				{
-					"name":"HTTP",
-					"children":[
-						{
-							"name":"Header"
-						},
-						{
-							"name":"OAuth"
-						},
-						{
-							"name":"keep-alive"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "数据结构与算法基础",
-			"children":[
-				{
-					"name":"数据结构",
-					"children":[
-						{
-							"name":"List"
-						},
-						{
-							"name":"Map"
-						},
-						{
-							"name":"堆栈"
-						},
-						{
-							"name":"队列"
-						}
-					]
-				},
-				{
-					"name":"算法",
-					"children":[
-						{
-							"name":"排序"
-						},
-						{
-							"name":"位运算"
-						},
-						{
-							"name":"数组操作"
-						},
-						{
-							"name":"字符串匹配"
-						},
-						{
-							"name":"算法基本思想",
-							"children":[
-								{
-									"name":"分治"
-								},
-								{
-									"name":"递归"
-								},
-								{
-									"name":"回溯"
-								},
-								{
-									"name":"动态规划"
-								},
-								{
-									"name":"贪婪"
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-		]
-	},
-	{
-		"name": "语言基础",
-		"children":[
-			{
-				"name":"基础语法"
-			},
-			{
-				"name":"面向对象"
-			},
-			{
-				"name":"Java内存模型"
-			},
-			{
-				"name":"JVM"
-			}
-		]
-	},
-	{
-		"name": "I/O包括网络I/O"
-	},
-	{
-		"name": "通信"
-	},
-	{
-		"name": "数据存储",
-		"children": [
-		{
-			"name": "数据库基础",
-			"children": [
-			{
-				"name": "数据库操作及SQL，如数据视图，权限，角色"
-			},
-			{
-				"name": "数据库设计与去冗"
-			},
-			{
-				"name": "Orm框架的使用"
-			}
-			]
-		},
-		{
-			"name":"K-V存储",
-			"children":[
-				{
-					"name":"SharedPreference"
-				}
-			]
-		}
-		]
-	},
-	{
-		"name": "并发与并行及其调优"
-	},
-	{
-		"name": "基础技能",
-		"children":[
-			{
-				"name":"IDE"
-			},
-			{
-				"name":"Git"
-			},
-			{
-				"name":"信息获取和筛选"
-			},
-			{
-				"name":"Linux"
-			}
-		]
-	},
-	{
-		"name": "软件测试"
-	}
-	]
+  "name": "Android",
+  "size": 1000,
+  "children": [
+    {
+      "name": "计算机基础",
+      "children": [
+        {
+          "name": "操作系统基础",
+          "children": [
+            {
+              "name": "进程"
+            },
+            {
+              "name": "线程"
+            },
+            {
+              "name": "锁和同步",
+              "children": [
+                {
+                  "name": "生产者消费者模型"
+                },
+                {
+                  "name": "哲学家进餐问题"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "计算机组成原理"
+        },
+        {
+          "name": "计算机网络",
+          "children": [
+            {
+              "name": "TCP/IP/UDP",
+              "children": [
+                {
+                  "name": "三次握手/四次握手"
+                },
+                {
+                  "name": "TCP/UDP区别"
+                }
+              ]
+            },
+            {
+              "name": "HTTP",
+              "children": [
+                {
+                  "name": "Header"
+                },
+                {
+                  "name": "OAuth"
+                },
+                {
+                  "name": "keep-alive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "数据结构与算法基础",
+          "children": [
+            {
+              "name": "数据结构",
+              "children": [
+                {
+                  "name": "List"
+                },
+                {
+                  "name": "Map"
+                },
+                {
+                  "name": "堆栈"
+                },
+                {
+                  "name": "队列"
+                }
+              ]
+            },
+            {
+              "name": "算法",
+              "children": [
+                {
+                  "name": "排序"
+                },
+                {
+                  "name": "位运算"
+                },
+                {
+                  "name": "数组操作"
+                },
+                {
+                  "name": "字符串匹配"
+                },
+                {
+                  "name": "算法基本思想",
+                  "children": [
+                    {
+                      "name": "分治"
+                    },
+                    {
+                      "name": "递归"
+                    },
+                    {
+                      "name": "回溯"
+                    },
+                    {
+                      "name": "动态规划"
+                    },
+                    {
+                      "name": "贪婪"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "语言基础",
+      "children": [
+        {
+          "name": "基础语法"
+        },
+        {
+          "name": "面向对象"
+        },
+        {
+          "name": "Java内存模型"
+        },
+        {
+          "name": "JVM"
+        }
+      ]
+    },
+    {
+      "name": "I/O包括网络I/O"
+    },
+    {
+      "name": "通信"
+    },
+    {
+      "name": "数据存储",
+      "children": [
+        {
+          "name": "数据库基础",
+          "children": [
+            {
+              "name": "数据库操作及SQL，如数据视图，权限，角色"
+            },
+            {
+              "name": "数据库设计与去冗"
+            },
+            {
+              "name": "Orm框架的使用"
+            }
+          ]
+        },
+        {
+          "name": "K-V存储"
+        }
+      ]
+    },
+    {
+      "name": "并发与并行及其调优"
+    },
+    {
+      "name": "基础技能",
+      "children": [
+        {
+          "name": "IDE"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "信息获取和筛选"
+        },
+        {
+          "name": "Linux"
+        },
+        {
+          "name": "Bash"
+        }
+      ]
+    },
+    {
+      "name": "软件测试"
+    },
+    {
+      "name": "Android开发",
+      "children": [
+        {
+          "name": "Framework",
+          "children": [
+            {
+              "name": "存储相关",
+              "children":[
+                {
+                  "name":"File"
+                },
+                {
+                  "name":"SQL"
+                },
+                {
+                  "name":"SharedPreference"
+                }
+              ]
+            },
+            {
+              "name":"控件",
+              "children":[
+                {
+                  "name":"View"
+                },
+                {
+                  "name":"Layout"
+                },
+                {
+                  "name":"Dialog"
+                },
+                {
+                  "name":"Toast"
+                }
+              ]
+            },
+            {
+              "name":"组件",
+              "children":[
+                {
+                  "name":"Activity"
+                },
+                {
+                  "name":"Service"
+                },
+                {
+                  "name":"ContentProvider"
+                },
+                {
+                  "name":"Fragment"
+                },
+                {
+                  "name":"进程间通信(IPC)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name":"其它",
+          "children":[
+            {
+              "name":"应用结构"
+            },
+            {
+              "name":"NDK使用"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
