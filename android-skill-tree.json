@@ -123,19 +123,102 @@
     },
     {
       "name": "语言基础",
-      "children": [
+      "children": [{
+        "name":"基础",
+        "children":[
+          {
+            "name": "基础语法"
+          },
+          {
+            "name": "面向对象"
+          }
+        ]
+      },
         {
-          "name": "基础语法"
-        },
-        {
-          "name": "面向对象"
-        },
-        {
-          "name": "Java内存模型"
-        },
-        {
-          "name": "JVM"
+          "name":"进阶",
+          "children":[
+            {
+              "name":"设计模式",
+              "children":[
+                {
+                  "name":"单例模式"
+                },
+                {
+                  "name":"工厂模式"
+                },
+                {
+                  "name":"观察者模式"
+                },
+                {
+                  "name":"策略模式"
+                },
+                {
+                  "name":"模版方法模式"
+                },
+                {
+                  "name":"修饰者模式"
+                },
+                {
+                  "name":"迭代器模式"
+                },
+                {
+                  "name":"命令模式"
+                },
+                {
+                  "name":"状态模式"
+                },
+                {
+                  "name":"责任链模式"
+                },
+                {
+                  "name":"代理模式"
+                },
+                {
+                  "name":"适配器模式"
+                }
+              ]
+            },
+            {
+              "name":"Java内存模型",
+              "children":[
+                {
+                  "name":"操作原子性"
+                },
+                {
+                  "name":"线程可见性"
+                }
+              ]
+            },
+            {
+              "name":"JVM",
+              "children":[
+                {
+                  "name":"垃圾回收机制"
+                },
+                {
+                  "name":"ClassLoader"
+                }
+              ]
+            },
+            {
+              "name":"注解和反射",
+              "children":[
+                {
+                  "name":"注解",
+                  "children":[
+                    {
+                      "name":"Android Support Annotation"
+                    }
+                  ]
+                },
+                {
+                  "name":"反射"
+                }
+              ]
+            }
+          ]
         }
+
       ]
     },
     {
@@ -194,72 +277,179 @@
     },
     {
       "name": "Android开发",
-      "children": [
+      "children":[{
+        "name":"基础",
+        "children":[
+          {
+            "name": "Framework",
+            "children": [
+              {
+                "name": "存储相关",
+                "children":[
+                  {
+                    "name":"File"
+                  },
+                  {
+                    "name":"SQL"
+                  },
+                  {
+                    "name":"SharedPreference"
+                  }
+                ]
+              },
+              {
+                "name":"控件",
+                "children":[
+                  {
+                    "name":"View"
+                  },
+                  {
+                    "name":"Layout"
+                  },
+                  {
+                    "name":"Dialog"
+                  },
+                  {
+                    "name":"Toast"
+                  }
+                ]
+              },
+              {
+                "name":"组件",
+                "children":[
+                  {
+                    "name":"Activity"
+                  },
+                  {
+                    "name":"Service"
+                  },
+                  {
+                    "name":"ContentProvider"
+                  },
+                  {
+                    "name":"Fragment"
+                  },
+                  {
+                    "name":"进程间通信(IPC)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name":"其它",
+            "children":[
+              {
+                "name":"应用结构"
+              },
+              {
+                "name":"NDK使用"
+              }
+            ]
+          }
+        ]
+
+      },
         {
-          "name": "Framework",
-          "children": [
-            {
-              "name": "存储相关",
-              "children":[
-                {
-                  "name":"File"
-                },
-                {
-                  "name":"SQL"
-                },
-                {
-                  "name":"SharedPreference"
-                }
-              ]
-            },
-            {
-              "name":"控件",
-              "children":[
-                {
-                  "name":"View"
-                },
-                {
-                  "name":"Layout"
-                },
-                {
-                  "name":"Dialog"
-                },
-                {
-                  "name":"Toast"
-                }
-              ]
-            },
-            {
-              "name":"组件",
-              "children":[
-                {
-                  "name":"Activity"
-                },
-                {
-                  "name":"Service"
-                },
-                {
-                  "name":"ContentProvider"
-                },
-                {
-                  "name":"Fragment"
-                },
-                {
-                  "name":"进程间通信(IPC)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name":"其它",
+          "name":"进阶",
           "children":[
             {
-              "name":"应用结构"
+              "name":"深入了解",
+              "children":[
+                {
+                  "name":"ListView",
+                  "children":[
+                    {
+                      "name":"复用机制"
+                    }
+                  ]
+                },
+                {
+                  "name":"Fragment机制"
+                },
+                {
+                  "name": "View",
+                  "children": [
+                    {
+                      "name": "刷新机制"
+                    },
+                    {
+                      "name": "交互事件传递机制"
+                    },
+                    {
+                      "name":"视图层次构成的视图树"
+                    }
+                  ]
+                },
+                {
+                  "name":"ContentProvider",
+                  "children":[
+                    {
+                      "name":"原理和实现"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "name":"NDK使用"
+              "name":"优化",
+              "children":[
+                {
+                  "name":"ListView",
+                  "children":[
+                    {
+                      "name":"SlowAdapter"
+                    }
+                  ]
+                },
+                {
+                  "name":"RecyclerView",
+                  "children":[
+
+                  ]
+                },
+                {
+                  "name":"内存优化",
+                  "children":[
+                    {
+                      "name":"Bitmap优化"
+                    },
+                    {
+                      "name":"缓存优化"
+                    }
+                  ]
+                },
+                {
+                  "name":"网络请求优化",
+                  "children":[
+                    {
+                      "name":"请求并发处理"
+                    },
+                    {
+                      "name":"请求队列"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name":"自定义",
+              "children":[{
+                "name":"自定义View",
+                "children":[
+                  {
+                    "name":"Canvas"
+                  },
+                  {
+                    "name":"自定义样式"
+                  }
+                ]
+              }
+
+              ]
             }
+
+
           ]
         }
       ]
